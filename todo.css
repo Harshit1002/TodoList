@@ -1,0 +1,82 @@
+body{
+  background-color: none;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+#div1{
+  margin:0 auto;
+  background: none;
+  background-color: cyan;
+  text-align: center;
+   box-sizing: border-box;
+  border: 10px solid blue;
+  width: 50%;
+  border-radius: 10px;
+  height: auto;
+  overflow-y: auto;
+
+}
+.list {
+
+  text-align: left;
+}
+ul{
+  list-style-type: none;
+}
+ul li{
+  padding: 5px 0 0 5px;
+  border: 2px solid #b5c5dd;
+  width: 80%;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  height: 40px;
+  margin: 6px auto;
+
+}
+ul li #check{
+  float: left;
+  padding: 0;
+  color: black;
+  width: 20px;
+  height: 30px;
+}
+ul li label{
+  padding: 3px 15px;
+
+}
+.change label {
+  text-decoration:line-through;
+
+  color: rgba(0, 0, 0, .4);
+}
+
+.visual{
+  animation:
+  opacity: 1;
+  list-style-type: none;
+  border-radius: 10px;
+
+}
+.visual #check{
+  float: left;
+  padding: 0;
+  color: black;
+  width: 20px;
+  height: 30px;
+}
+
+
+
+button{
+  margin: 10px 0;
+  width: 100%;
+}
+
+.texttag{
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+}
